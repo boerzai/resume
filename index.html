@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bozai'Resume</title>
+	<script src="js/jquery.min.js"> </script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<script type="application/x-javascript"> 
+		addEventListener("load", function() { 
+			setTimeout(hideURLbar, 0); 
+		}, false); 
+		function hideURLbar(){
+			window.scrollTo(0,1);
+		} 
+	</script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({
+						scrollTop:$(this.hash).offset().top
+					},1000);
+				});
+			});
+		</script>
+</head>
+<body>
+ <div id="top-top" class="headerbg">
+	   <div class="header">
+			  <div class="container">
+				   <div class="logo">
+						<a href="#">Bozai'Resume</a>
+				   </div>
+				  <div class="nav">
+					 <ul>
+						 <li><a class="scroll" href="#about">ABOUT</a></li>
+						 <li><a class="scroll" href="#skills">SKILLS</a></li>
+						 <li><a class="scroll" href="#port">WORKS</a></li>
+						 <li><a class="scroll" href="#contact">CONTACT</a></li>
+					 </ul>
+				 </div>
+					<div class="clear"></div>
+			  </div>
+	   </div>
+	   <div class="banner">
+	      <div class="container">
+		     <div class="banner-info">
+			      <div class="bannerlogo">
+					  <img src="img/main.jpg">
+			      </div>
+			      <div class="bannerhead">
+				      <h2><span></span></h2>
+				      <h3>Web Developer</h3>
+				      <p>I'm Bozai, I'm from shanxi, graduating <br>in
+						  2014, after the graduation worked in <br>a technology
+						  company for two years.</p>
+					  <a class="downarrow scroll" href="#about"><span> </span></a>
+			      </div>
+			 </div>
+			 <div class="clear"></div>
+		  </div>
+	  </div>
+ </div>
+ <div class="content">
+	   <div id="about" class="about">
+		 <div class="container">
+			   <div class="header-section text-center">
+				  <h2><span> </span>ABOUT<span> </span></h2>
+				  </div>
+				 <span><p>我，一名前端工程师，从事这个行业已经有两年时间了，我非常热爱这个行业，在这里，我不仅能得到物质上的收获，
+					 更能让我体会到精神上的快乐与满足。</p></span>
+					 
+			  <div class="years">	 
+				<h4><b>2014.10-2017.3</b></h4>
+				 <span><h4>小马过河互联网教育有限公司</h4></span>
+				 <p>2014年10月我来到了尚荣科技公司，任职前端工程师一职，在工作中我主要负责web页面的布局和一些动态效果的添加，以及一些后台的交互。工作和学习让我对技能的熟练有了更大的提升，也让我对前端这个职业有了更加浓厚的兴趣</p>
+			  </div> 
+			  </div>
+				 <a class="arrow scroll" href="#skills"><span> </span></a>
+		  </div>
+	  </div>
+	 
+	  <div id="skills" class="skills">
+	  <div class="container">
+	     <div class="skills-grids">
+			  <div class="skill-section text-center">
+				  <h2><span> </span>SKILLS<span> </span></h2>
+			  </div>
+					  <div class="services_grids">
+						  <div id="canvas">
+								<div class="skill-grids text-center">
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-1">
+													<h3>HTML5</h3>
+												</div>
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-2">
+													<h3>CSS3</h3>
+												</div>
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-3">
+													<h3>JAVASCRIPT</h3>
+												</div>
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-4">
+													<h3>JQUERY</h3>
+												</div>
+											 </div>								  
+										</div>
+									<div class="col-md-3">
+										<div class="skill-grid">
+											<div class="circle" id="circles-5">
+												<h3>BOOTSTRAP</h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="skill-grid">
+											<div class="circle" id="circles-5">
+												<h3>ANGULAR.JS</h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="skill-grid">
+											<div class="circle" id="circles-5">
+												<h3>AJAX</h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="skill-grid">
+											<div class="circle" id="circles-5">
+												<h3>PHOTOSHOP</h3>
+											</div>
+										</div>
+									</div>
+										<div class="clearfix"> </div>
+								  </div>
+						   </div>
+					  </div>
+
+
+					
+			 </div>
+		 </div>
+		   <a class="down scroll" href="#port"><span> </span></a>
+	  </div>
+	  </div>
+		 <div id="port" class="Portfolio">
+			  <div class="Portfolio-section text-center">
+			      <h2><span> </span>WORKS<span> </span></h2>
+			  </div>
+			  <div class="container">
+				  <div class="portfolio-grids">
+					  <div class="portfolio-grid col-md-4">
+						 <a href="https://boerzai.github.io/2048/index.html">
+							 <img src="img/monitr1.jpg">
+							 <div class="works"></div>
+						 </a>
+						  <p>这是一个学习制作的简单的2048游戏</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/bootstrap/index.html"><img src="img/monitr2.jpg"></a>
+						  <p>这是用bootstrap插件模仿的一个首页，大大提高了开发效率</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/clock/index.html"><img src="img/monitr3.jpg"></a>
+						  <p>这是运用HTML5的canvas属性画的一个钟表</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/demo-apple/index.html"><img src="img/monitr4.jpg"></a>
+						  <p>这是临摹的一个苹果官网的首页，主要展示了响应式布局。</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/musicplayer/index.html"><img src="img/monitr5.jpg"></a>
+						  <p>这是自己做的一款音乐播放器，这里主要用了精灵图片的布局。</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/no-delay-menu/index.html"><img src="img/monitr6.jpg"></a>
+						  <p>这是无延迟菜单，防止鼠标经过菜单时造成的不想要的菜单跳转。</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/css3Menu/index.html"><img src="img/monitr7.jpg"></a>
+						  <p>这是css3做的一个3D旋转菜单。</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/mousewheel/index.html"><img src="img/monitr8.jpg"></a>
+						  <p>这是滚轮事件。</p>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="https://boerzai.github.io/floor/index.html"><img src="img/monitr9.jpg"></a>
+						  <p>这是楼层跳转模板</p>
+					  </div>
+					  <div class="clear"> </div>
+				  </div>
+				  <a class="portdown scroll" href="#contact"><span> </span></a>
+				  
+			  </div>
+		 </div>
+  </div>
+  
+  <div  id="contact" class="footer">
+      <div class="container">
+	  
+		   <div class="contact-section text-center">
+			  <h2><span> </span>CONTACT<span> </span></h2>
+		  </div>
+		 <div class="row">
+		 
+			 <div class="col-md-6">
+				  <div class="footer-left">
+						<div class="social-icons">
+						   <a href="javascript:;"><img src="img/in.png"></a>
+						   <a href="javascript:;"><img src="img/twt.png"></a>
+						   <a href="javascript:;"><img src="img/fb.png"></a>
+					   </div>
+					   <p>Tel : <br>
+					   18518216829 <br>
+					   QQ : <br>
+					   287280725 <br>
+					   E-mail : <br>
+					   18518216829@163.com</p>
+				  </div>
+			 </div>
+			  
+			  <div class="col-md-6">
+		  		 <!-- <div class="footer-right">
+				 <div class="form">
+				 <form>
+					 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					 <textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					 <div class="clear"> </div>
+					 <input type="submit" value="SEND"> 
+				 </form>
+				 </div>
+				  </div> -->
+				  <div class="clear"></div>
+			  </div>
+		 </div>
+	 </div>
+	 <a class="up scroll" href="#top-top"><span> </span></a>
+	  
+ </div>
+ 
+ </body>
+ </html>
